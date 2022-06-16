@@ -30,7 +30,7 @@ clean:
 	@echo '+++ Cleaning Up ... '
 	@rm -f $(EXECS)
 	@rm -f $(OBJS)
-	@cp step-bin/stepStone .
+	@cp step-bin/steppingStone .
 	@cp step-bin/stepPangenome .
 	@cp step-bin/step_nation .
 
