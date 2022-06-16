@@ -82,7 +82,7 @@ fi
 
 echo; echo "Compiling steppingStone sources"
 
-srcs=( step_fastq step_linkStones step_breakSort step_number step_breakProcess step_cleanProcess stepBreakPoint step_processStones step_shortReads step_edgeStones step_sortStones stepStone )
+srcs=( step_fastq step_linkStones step_breakSort step_number step_breakProcess step_cleanProcess stepBreakPoint step_processStones step_shortReads step_edgeStones step_sortStones steppingStone)
 
 cd $projdir/src
 make &> $projdir/src/log/sources_compilation.log
