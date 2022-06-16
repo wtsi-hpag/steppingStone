@@ -11,7 +11,7 @@ If everything compiled successfully you must see the final comment:
 		"Congrats: installation successful!"		
 
 #### External packages
-The genome aligner BWA (http://bio-bwa.sourceforge.net) and SMALT (http://www.sanger.ac.uk/science/tools/smalt-0) are downloaded and compiled by steppingStone.
+The genome aligner BWA (https://github.com/lh3/bwa) and minimap2 (https://github.com/lh3/minimap2) are downloaded and compiled by steppingStone.
 
 ### Run the pipelines
 
