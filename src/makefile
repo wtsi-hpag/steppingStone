@@ -1,9 +1,9 @@
-# Makefile for stepStone 
+# Makefile for steppingStone 
 CC= gcc
 CFLAGS= -O4
 LFLAGS= -lm 
 
-SOURCES=step_fastq.c step_linkStones.c step_breakSort.c step_number.c step_breakProcess.c step_cleanProcess.c stepBreakPoint.c step_processStones.c step_shortReads.c step_edgeStones.c step_sortStones.c stepStone.c
+SOURCES=step_fastq.c step_linkStones.c step_breakSort.c step_number.c step_breakProcess.c step_cleanProcess.c stepBreakPoint.c step_processStones.c step_shortReads.c step_edgeStones.c step_sortStones.c steppingStone.c
 
 OBJS = $(patsubst %.c,%.o,$(SOURCES)) fast.o
 EXECS = $(patsubst %.c,%,$(SOURCES))
